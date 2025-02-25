@@ -1,0 +1,16 @@
+{
+  "import": [
+    "panicfrog/unilib/lib",
+    "moonbitlang/x/encoding"
+  ],
+  "link": {
+    "js": {
+      "exports": ["greeting"],
+      "format": "cjs"
+    },
+    "native": {
+      "cc-flags": "-c",
+      "exports": ["greeting_native"]
+    }
+  }
+}
